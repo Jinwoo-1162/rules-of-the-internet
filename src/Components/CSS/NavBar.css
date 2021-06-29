@@ -1,0 +1,30 @@
+.press {
+    position: relative;
+    top: 20px;
+    height: 70px;
+    width: 100px;
+    background-color: coral;
+    border-radius: 20%;
+    border: none;
+}
+
+label {
+    margin: auto;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+.press:hover {
+    animation-name: hovering;
+    animation-duration: 700ms;
+    animation-fill-mode:forwards;
+}
+@keyframes hovering {
+    100% {
+        transform: scale(1.1);
+        background-image: linear-gradient(35deg, hsl(0, 100%, 50%), teal);
+    }
+}
+
+
+
