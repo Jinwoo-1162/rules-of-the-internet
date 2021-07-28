@@ -1,0 +1,19 @@
+.space {
+    margin: auto 5% auto 5%;
+}
+
+.generate {
+    border-radius: 15%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+.generate:hover {
+    transform: scale(1.1);
+}

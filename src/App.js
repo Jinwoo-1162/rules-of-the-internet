@@ -4,6 +4,7 @@ import {Counter} from './Components/Counter';
 import {Textbox} from './Components/Textbox';
 import {NavBar} from './Components/NavBar';
 import {Movie} from './Components/Movie';
+import { QuoteMaker } from './Components/QuoteMaker';
 import './App.css';
 
 function App() {
@@ -18,9 +19,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <QuoteMaker />
+        {/*
         <NavBar lastHeader="memes"/>
         <img src={logo} className="App-logo" alt="logo" />
-        {/* <Movie /> */}
+        <Movie />
         <Textbox />
         <Counter init="Press a Button"/>
         <a
@@ -31,6 +34,7 @@ function App() {
         >
           Learn React
         </a>
+        */}
       </header>
     </div>
   );
